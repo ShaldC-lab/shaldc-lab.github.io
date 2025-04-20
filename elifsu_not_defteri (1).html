@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Elifsu Not Defteri</title>
+  <style>
+    body {
+      background-color: #f3e5f5;
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+      padding: 40px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #d6336c;
+      font-size: 36px;
+      border-bottom: 2px solid #d6336c;
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      color: #6f42c1;
+      margin-top: 30px;
+    }
+
+    ul {
+      background-color: #fff0f6;
+      padding: 20px;
+      border-radius: 8px;
+      list-style-type: square;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      background-color: #d6336c;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #b92f5a;
+      transform: scale(1.05);
+    }
+
+    p {
+      max-width: 600px;
+    }
+
+    textarea {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 16px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      resize: vertical;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📒 Elifsu Not Defteri</h1>
+
+  <p>Merhaba! Bu benim kişisel not defterim. Burada en sevdiğim dersleri, notları ve faydalı bilgileri paylaşacağım.</p>
+
+  <h2>📚 Favori Derslerim</h2>
+  <ul>
+    <li>Biyoloji</li>
+    <li>Tarih</li>
+    <li>Matematik</li>
+  </ul>
+
+  <h2>💬 İletişim</h2>
+  <p>Bana ulaşmak istersen bir e-posta bırakabilirsin:</p>
+
+  <a href="mailto:elifsu123@gmail.com">elifsu123@gmail.com</a><br><br>
+  <button onclick="window.location.href='mailto:elifsu123@gmail.com'">📧 Bana E-posta Gönder</button>
+
+  <!-- 💌 Görüş Gönderme Formu -->
+  <form action="https://formsubmit.co/elifsu123@gmail.com" method="POST">
+    <h2>✍️ Görüşünü Yaz</h2>
+    <p>Bu sayfayla ilgili düşüncelerini benimle paylaş:</p>
+    <textarea name="mesaj" rows="4" placeholder="Buraya yazabilirsin..." required></textarea><br>
+    <button type="submit">📤 Gönder</button>
+  </form>
+</body>
+</html>
